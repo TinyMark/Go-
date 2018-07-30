@@ -14,17 +14,16 @@
 
 * Go有25个关键字
 
-| | | | | |
-| ------ | ------ | ------ | ------ | ------ |
+``` go
 | break | default | func | interface | select |
 | case | defer | go | map | struct |
 | chan | else | goto | package | switch |
 | const | fallthrough | if | range | type |
 | continue | for | import | return | var |
 
-* 30+内置的预声明的常量、类型和函数：
-    
+```
 
+* 30+内置的预声明的常量、类型和函数：
     
 ``` go
 常量：
