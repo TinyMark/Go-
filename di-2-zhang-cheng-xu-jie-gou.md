@@ -13,6 +13,7 @@
 3. 不能使用 **关键字**。
 
 * Go有25个关键字
+
 | | | | | |
 | ------ | ------ | ------ | ------ | ------ |
 | break | default | func | interface | select |
@@ -23,12 +24,15 @@
 
 * 30+内置的预声明的常量、类型和函数：
     
-    常量： true    false    iota    nil
-    类型： int    int8    int16    int32    int64
+    * 常量： 
+          true    false    iota    nil
+    * 类型： 
+          int    int8    int16    int32    int64
           uint    uint8    uint16    uint32    uint64    uintptr
           float32    float64    complex128    complex64
           bool    byte    rune    string    error
-    函数： make      len      cap      new      append      copy      close      delete
+    * 函数： 
+          make      len      cap      new      append      copy      close      delete
           complex      real      imag
           panic      recover        
 > 这些名称不是预留的，可以使用它们。**但是有冲突的风险。**
