@@ -2,5 +2,5 @@
 
 够浪笔记
 
-[SUMMARY.md](/SUMMARY.md "传送门")
+[目录](/SUMMARY.md "目录")
 
