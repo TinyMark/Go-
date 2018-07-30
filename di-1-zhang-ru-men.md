@@ -1,4 +1,16 @@
-# [1.1 hello,world](/di-1-zhang-ru-men/11-helloworld.md)
+# 1.1 hello,world
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+
+    fmt.Println("hello,world!")
+
+}
+```
 
 ## 
 
