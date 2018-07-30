@@ -31,8 +31,15 @@
           uint    uint8    uint16    uint32    uint64    uintptr
           float32    float64    complex128    complex64
           bool    byte    rune    string    error
-    * 函数： 
-          make      len      cap      new      append      copy      close      delete
-          complex      real      imag
-          panic      recover        
+    * 函数：
+    
+```
+make len cap new append copy close delete
+complex real imag
+panic recover
+```
+
+
+
+     
 > 这些名称不是预留的，可以使用它们。**但是有冲突的风险。**
