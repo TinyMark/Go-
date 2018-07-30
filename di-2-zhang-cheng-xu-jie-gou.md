@@ -24,16 +24,17 @@
 
 * 30+内置的预声明的常量、类型和函数：
     
-    * 常量： 
-          true    false    iota    nil
-    * 类型： 
-          int    int8    int16    int32    int64
-          uint    uint8    uint16    uint32    uint64    uintptr
-          float32    float64    complex128    complex64
-          bool    byte    rune    string    error
-    * 函数：
+
     
-```
+``` go
+常量：
+true        false        iota        nil
+类型：
+int         int8         int16         int32         int64
+uint        uint8        uint16        uint32        uint64        uintptr
+float32     float64      complex128    complex64
+bool        byte         rune          string        error
+函数：
 make len cap new append copy close delete
 complex real imag
 panic recover
