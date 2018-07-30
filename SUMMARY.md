@@ -1,6 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
+## Go程序设计语言
+
+* [简介](README.md)
 
 ## 第1章 入门
 
