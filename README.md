@@ -2,5 +2,5 @@
 
 够浪笔记
 
-\[传送门\]\(summary.md\)
+[SUMMARY.md](/SUMMARY.md "传送门")
 
