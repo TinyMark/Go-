@@ -31,3 +31,4 @@
     函数： make      len      cap      new      append      copy      close      delete
           complex      real      imag
           panic      recover        
+> 这些名称不是预留的，可以使用它们。**但是有冲突的风险。**
