@@ -54,10 +54,21 @@ panic       recover
     3. 然后是包级别的类型、变量、常量、函数的声明，不区分顺序。
 
 
-
 ``` go
-fsda
+// boiling 输出水的沸点
+package main
 
+import "fmt"
+
+const boilingF = 212.0
+
+func main(){
+    var f = boilingF
+    var c = (f - 32) * 5 / 9 
+    fmt.Printf("boiling point = %g°F or %g°C\n", f, c)
+    // 输出：
+    // boiling porint = 212°F or 100°C
+}
 ```
 
 
